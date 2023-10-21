@@ -50,3 +50,61 @@
 
 
 
+### De este lado estara el codigo de la base de datos :D
+
+![base de dattos](image-1.png)
+
+Ramen {
+	Ramen_id integer pk increments >* inventario.tipo_ramen
+	encargado_id integer *>* productor.p_ingredientes
+	productor_id integer
+	producto_terminado integer > undefined.undefined
+	precios integer >* precio.cantidad
+	pedidos_id integer *>* pedidos.id
+}
+
+productor {
+	id integer pk increments
+	p_ingredientes integer *>* industria.creacion_ramen
+}
+
+industria {
+	id integer pk increments
+	creacion_ramen integer
+}
+
+inventario {
+	id integer pk increments *>* Ramen.precios
+	tipo_ramen integer *>* productor.p_ingredientes
+	pedido_factura integer *> ventas.factura_id
+}
+
+aprobacion {
+	id integer pk increments *>* Ramen.producto_terminado
+	a_ingredientes integer *>* productor.p_ingredientes
+	a_indsutria integer *>* industria.creacion_ramen
+}
+
+precio {
+	id integer pk increments
+	cantidad integer *>* inventario.tipo_ramen
+	tipo integer
+}
+
+pedidos {
+	id integer pk increments
+	cantidad_id integer >* inventario.tipo_ramen
+}
+
+cliente {
+	id integer pk increments >* pedidos.id
+	telefono integer
+	name integer >* inventario.tipo_ramen
+	direction integer
+}
+
+ventas {
+	id integer pk increments >* pedidos.id
+	factura_id integer > cliente.id
+}
+
