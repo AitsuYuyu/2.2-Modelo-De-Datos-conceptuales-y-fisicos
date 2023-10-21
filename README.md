@@ -12,23 +12,29 @@
 
 1 Control de calidad
 
-    El primer paso es establecer un sistema de control de calidad que garantice que los ingredientes y el proceso de elaboración del ramen cumplen con los estándares establecidos. Esto incluye la selección de ingredientes frescos y de alta calidad, la elaboración de un caldo de sabor intenso y la cocción de los fideos al punto.
+    El primer paso es establecer un sistema de control de calidad que garantice que los ingredientes y el proceso de elaboración del ramen 
+    cumplen con los estándares establecidos. Esto incluye la selección de ingredientes frescos y de alta calidad, la elaboración de un caldo 
+    de sabor intenso y la cocción de los fideos al punto.
 
 2 Gestión de inventarios
 
-    Un sistema de gestión de inventarios eficiente ayuda a garantizar que se disponga de los ingredientes necesarios para elaborar el ramen en todo momento. Esto evitará la falta de productos y las pérdidas de ventas.
+    Un sistema de gestión de inventarios eficiente ayuda a garantizar que se disponga de los ingredientes necesarios para elaborar el ramen en
+    todo momento. Esto evitará la falta de productos y las pérdidas de ventas.
 
 3 Gestión de pedidos
 
-    Un sistema de gestión de pedidos eficaz ayuda a garantizar que los pedidos de ramen se procesen y entreguen de manera oportuna. Esto es importante para satisfacer las necesidades de los clientes y evitar la pérdida de ventas.
+    Un sistema de gestión de pedidos eficaz ayuda a garantizar que los pedidos de ramen se procesen y entreguen de manera oportuna. 
+    Esto es importante para satisfacer las necesidades de los clientes y evitar la pérdida de ventas.
 
 4 Gestión de precios
 
-    Un sistema de gestión de precios que sea competitivo ayuda a atraer y retener clientes. Es importante tener en cuenta los costos de los ingredientes, la elaboración y la distribución al establecer los precios.
+    Un sistema de gestión de precios que sea competitivo ayuda a atraer y retener clientes. Es importante tener en cuenta los costos 
+    de los ingredientes, la elaboración y la distribución al establecer los precios.
 
 5 Marketing y publicidad
 
-    El marketing y la publicidad son fundamentales para dar a conocer el ramen y atraer nuevos clientes. Es importante desarrollar una estrategia de marketing que se adapte al público objetivo y que destaque las características únicas del ramen.
+    El marketing y la publicidad son fundamentales para dar a conocer el ramen y atraer nuevos clientes. Es importante desarrollar una
+    estrategia de marketing que se adapte al público objetivo y que destaque las características únicas del ramen.
 
 
 
