@@ -34,3 +34,7 @@ ALTER TABLE `ventas` DROP FOREIGN KEY `ventas_fk0`;
 
 ALTER TABLE `ventas` DROP FOREIGN KEY `ventas_fk1`;
 
+
+
+
+
