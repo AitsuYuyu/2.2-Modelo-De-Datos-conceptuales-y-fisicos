@@ -6,8 +6,8 @@ CREATE TABLE `Facturación`(
 );
 CREATE TABLE `Clientes`(
     `cliente_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `nameCliente` LONGTEXT NOT NULL,
-    `directionCliente` TEXT NOT NULL,
+    `nameCliente` VARCHAR(255) NOT NULL,
+    `directionCliente` VARCHAR(255) NOT NULL,
     `idEmail` VARCHAR(255) NOT NULL,
     `phoneNumClientes` INT NOT NULL,
     `carritoDeCompra_id` BIGINT NOT NULL
@@ -17,9 +17,9 @@ CREATE TABLE `stock`(
 );
 CREATE TABLE `Autores`(
     `autor_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `nameAutor` LONGTEXT NOT NULL,
-    `directionAutor` TEXT NOT NULL,
-    `urlPag` TEXT NOT NULL
+    `nameAutor` VARCHAR(255) NOT NULL,
+    `directionAutor` VARCHAR(255) NOT NULL,
+    `urlPag` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `Registro`(
     `registro_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
@@ -32,7 +32,7 @@ CREATE TABLE `Venta`(
 CREATE TABLE `Almacenes`(
     `almacen_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `codigo` INT NOT NULL,
-    `directionAlmacen` TEXT NOT NULL,
+    `directionAlmacen` VARCHAR(255) NOT NULL,
     `numPhone` INT NOT NULL,
     `stock_id` BIGINT NOT NULL,
     `registro_id` BIGINT NOT NULL
@@ -45,10 +45,10 @@ CREATE TABLE `Carro de compra`(
 CREATE TABLE `Notificaciones`(
     `notificacion_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `cliente_id` BIGINT NOT NULL,
-    `idEmailCliente` TEXT NULL
+    `idEmailCliente` VARCHAR(255) NULL
 );
 CREATE TABLE `Libro`(
-    `tituloLibro` TEXT NOT NULL,
+    `tituloLibro` VARCHAR(255) NOT NULL,
     `ISBN` BIGINT NOT NULL,
     `añoLibro` INT NULL,
     `precio` DOUBLE(8, 2) NOT NULL,
@@ -57,10 +57,10 @@ CREATE TABLE `Libro`(
 );
 CREATE TABLE `Editores`(
     `editor_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `nameEditor` LONGTEXT NOT NULL,
-    `directionEditor` TEXT NOT NULL,
+    `nameEditor` VARCHAR(255) NOT NULL,
+    `directionEditor` VARCHAR(255) NOT NULL,
     `numPhone` INT NOT NULL,
-    `urlPag` TEXT NOT NULL
+    `urlPag` VARCHAR(255) NOT NULL
 );
 CREATE TABLE `Historial de compra`(
     `coipasDeLibros_id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
